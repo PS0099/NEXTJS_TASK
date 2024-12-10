@@ -23,8 +23,8 @@ const Footer = () => {
           </div>
           <ul className="flex flex-col items-start mt-2 space-y-1">
             <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">À propos</li>
-            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Livraisons & Reprises</li>
-            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Mode d’emploi</li>
+            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Livraisons &amp; Reprises</li>
+            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Mode d&apos;emploi</li>
             <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">F.A.Q</li>
           </ul>
         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
           <ul className="flex flex-col items-start mt-2 space-y-1">
             <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Accéder à mon compte</li>
-            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Ma liste d’envie</li>
+            <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Ma liste d&apos;envie</li>
             <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Créer un compte</li>
             <li className="hover:text-blue-500 transition-colors duration-300 cursor-pointer">Mot de passe oublié</li>
           </ul>
