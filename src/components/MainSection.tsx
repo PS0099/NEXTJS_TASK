@@ -46,7 +46,7 @@ const MainSection = () => {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
             <div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-800">
-                Cheese-appareil à raclette 1/2 roue
+                Cheese-appareil à raclette 1&#47;2 roue
               </h3>
               <h5 className="text-base sm:text-lg font-semibold text-gray-700">
                 39,50$ <span className="text-sm text-gray-500">/piece</span>
@@ -93,13 +93,13 @@ const MainSection = () => {
 
           <div className="text-sm sm:text-base mt-4">
             <p>
-              Location appareil a raclette-Reclette traditionnelle 1/2 roue
+              Location appareil à raclette-Reclette traditionnelle 1&#47;2 roue
               <br />
-              Reglable en hauter
+              Réglable en hauteur
               <br />
-              Appareil a raclette professionnel
+              Appareil à raclette professionnel
               <br />
-              Boltier de chauffe horizontal reglable en hauter
+              Boîtier de chauffe horizontal réglable en hauteur
             </p>
             <h5 className="font-medium">220v</h5>
             <h5 className="font-medium">900w</h5>
@@ -108,11 +108,11 @@ const MainSection = () => {
           <hr className="my-4" />
 
           <div className="flex flex-col sm:flex-row gap-1">
-            <div className="flex w-full sm:w-auto items-center bg-[#F8F6F4] p-1 sm:   justify-center rounded-md sm:h-auto">
+            <div className="flex w-full sm:w-auto items-center bg-[#F8F6F4] p-1 sm:justify-center rounded-md sm:h-auto">
               <button>
                 <img
                   src="Images/Icon (1).png"
-                  alt=""
+                  alt="Add"
                   className="w-[16px] h-[16px] hover:bg-green-600"
                 />
               </button>
@@ -120,7 +120,7 @@ const MainSection = () => {
               <button>
                 <img
                   src="Images/minus.png"
-                  alt=""
+                  alt="Minus"
                   className="w-[16px] h-[16px] hover:bg-red-600"
                 />
               </button>
@@ -137,11 +137,10 @@ const MainSection = () => {
         <div className="lg:w-[50%]">
           <h6 className="text-lg font-semibold">Description produit</h6>
           <p className="text-sm sm:text-base text-gray-700 mt-2">
-            Festi vous propose à la location un/une "Jewel – grand couteau/10pc"
-            pour votre évenement et ce dès 0,35 € / pièce (HTVA). Que ce soit
-            pour votre mariage, une fête d'anniversaire ou du personnel, ce
-            produit a fait l'objet d'une sélection rigoureuse par notre équipe.
-            Il est en location chez nous sous la référence "VAJGC". Nous sommes
+            Festi vous propose à la location un/une &quot;Jewel – grand couteau&#47;10pc&quot; pour votre événement et ce dès 0,35 € / pièce (HTVA). Que ce soit
+            pour votre mariage, une fête d&apos;anniversaire ou du personnel, ce
+            produit a fait l&apos;objet d&apos;une sélection rigoureuse par notre équipe.
+            Il est en location chez nous sous la référence &quot;VAJGC&quot;. Nous sommes
             à votre disposition pour que les événements de nos clients, même en
             last-minute, soient toujours une réussite.
           </p>
@@ -153,7 +152,7 @@ const MainSection = () => {
             <p className="text-gray-700 text-sm sm:text-base">Livraisons</p>
             <img
               src="Images/Icon (1).png"
-              alt=""
+              alt="Delivery Icon"
               className="w-[24px] h-[24px]"
             />
           </div>
@@ -161,7 +160,7 @@ const MainSection = () => {
             <p className="text-gray-700 text-sm sm:text-base">Questions</p>
             <img
               src="Images/Icon (1).png"
-              alt=""
+              alt="Questions Icon"
               className="w-[24px] h-[24px]"
             />
           </div>
