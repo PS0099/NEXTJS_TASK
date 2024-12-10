@@ -1,8 +1,6 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 
-
-
 const Navbar = () => {
   return (
     <div className="bg-white shadow-md">
@@ -21,7 +19,7 @@ const Navbar = () => {
         <div className="block md:hidden w-full">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand text-black" href="#">
                 Navbar
               </a>
               <button
@@ -35,26 +33,33 @@ const Navbar = () => {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <div
+                className="collapse navbar-collapse"
+                id="navbarNavDropdown"
+              >
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
+                    <a
+                      className="nav-link active text-black"
+                      aria-current="page"
+                      href="#"
+                    >
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link text-black" href="#">
                       Features
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link text-black" href="#">
                       Pricing
                     </a>
                   </li>
                   <li className="nav-item dropdown">
                     <a
-                      className="nav-link dropdown-toggle text-black" // Black color for dropdown button
+                      className="nav-link dropdown-toggle text-black"
                       href="#"
                       id="navbarDropdownMenuLink"
                       role="button"
