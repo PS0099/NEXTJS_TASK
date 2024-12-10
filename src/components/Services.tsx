@@ -1,3 +1,5 @@
+import React from "react";
+
 const Services = () => {
   return (
     <div
@@ -22,7 +24,11 @@ const Services = () => {
         {/* Item 1 */}
         <div className="text-center min-w-[200px]">
           <div className="flex justify-center">
-            <img src="Images/Groupe_25.png" alt="" className="h-12 md:h-16" />
+            <img
+              src="Images/Groupe_25.png"
+              alt="Livraison & Reprise Icon"
+              className="h-12 md:h-16"
+            />
           </div>
           <h6 className="text-sm md:text-base font-semibold mt-3">
             Livraison & Reprise
@@ -38,7 +44,7 @@ const Services = () => {
         {/* Item 2 */}
         <div className="text-center min-w-[200px]">
           <div className="flex justify-center">
-            <img src="Images/dish.png" alt="" className="h-12 md:h-16" />
+            <img src="Images/dish.png" alt="Nettoyage Icon" className="h-12 md:h-16" />
           </div>
           <h6 className="text-sm md:text-base font-semibold mt-3">Nettoyage</h6>
           <p className="text-xs md:text-sm mt-1">Selon vos besoins</p>
@@ -52,7 +58,11 @@ const Services = () => {
         {/* Item 3 */}
         <div className="text-center min-w-[200px]">
           <div className="flex justify-center">
-            <img src="Images/Groupe_56.png" alt="" className="h-12 md:h-16" />
+            <img
+              src="Images/Groupe_56.png"
+              alt="Commande Illimitée Icon"
+              className="h-12 md:h-16"
+            />
           </div>
           <h6 className="text-sm md:text-base font-semibold mt-3">
             Commande Illimitée
@@ -68,7 +78,11 @@ const Services = () => {
         {/* Item 4 */}
         <div className="text-center min-w-[200px]">
           <div className="flex justify-center">
-            <img src="Images/Groupe_123.png" alt="" className="h-12 md:h-16" />
+            <img
+              src="Images/Groupe_123.png"
+              alt="Transport & Enlèvement Icon"
+              className="h-12 md:h-16"
+            />
           </div>
           <h6 className="text-sm md:text-base font-semibold mt-3">
             Transport & Enlèvement
@@ -82,18 +96,18 @@ const Services = () => {
         {/* Left Image */}
         <div className="w-full md:w-[50%]">
           <img
-            src="Images\BUFFET_037 1.png"
-            alt=""
+            src="Images/BUFFET_037 1.png"
+            alt="Buffet Image"
             className="h-[200px] md:h-[300px] rounded-md"
           />
         </div>
 
         {/* Right Section */}
-        <div className="bg-[#BDA2B0] rounded-md  md:h-[300px] w-full md:w-[50%]">
+        <div className="bg-[#BDA2B0] rounded-md md:h-[300px] w-full md:w-[50%]">
           <div className="p-4">
             <h3 className="text-lg md:text-xl font-semibold">
               S'inscrire & economiser{" "}
-              <span className="text-[#5CD2DD] ">10%</span>
+              <span className="text-[#5CD2DD]">10%</span>
             </h3>
             <p className="text-sm md:text-base mt-3">
               Office ipsum you must be muted. Synergize helicopter prioritize
